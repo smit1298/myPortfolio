@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+.container {
+  border: 3px solid rgb(0, 179, 255);
+  margin: 20px;
+  height: fit-content;
+}
+
+/* Hero Styles */
+.hero {
+  /* width: 99%; */
+  display: flex;
+  justify-content: center;
+  background: rgba(17, 151, 178, 0.3);
+  padding: 10px;
+  border-bottom: 20px solid #c9d3e1;
+}
+
+.reach-me {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin: 0px 10px;
+}
+.reach-me-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reach-me-text a:nth-child(2) {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.reach-me-text a:nth-child(3) {
+  color: black;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 12px;
+}
+.reach-me-text a:nth-child(4) {
+  color: black;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.hero-image img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+  border-radius: 200px;
+}
+
+/* POrtfolio */
+.portfoilio-header {
+  text-align: center;
+  font-size: 20px;
+}
+
+.portfolio-details {
+  display: flex;
+  width: 95%;
+  gap: 3%;
+  margin: 0 2%;
+}
+.portfolio-left {
+  width: 50%;
+}
+.portfolio-right {
+  width: 50%;
+}
+.head-details {
+  background: rgb(149, 206, 230);
+  text-align: center;
+}
+
+.bold-text {
+  font-weight: bold;
+  color: royalblue;
+}
+
+/* contact */
+.contact-them {
+  background-color: #e4e4fa;
+  margin: 25px;
+  border: 2px solid #e4e4fa;
+  border-radius: 20px;
+}
+.contact-them h3 {
+  display: flex;
+  justify-content: center;
+}
+.contact-container {
+  display: flex;
+}
+.contact-form {
+  width: 50%;
+  margin: 20px;
+}
+.contact-map {
+  width: 50%;
+  margin: 20px;
+}
+.my-textarea {
+  width: 100%;
+  height: 150px;
+  
+}
